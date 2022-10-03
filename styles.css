@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* Note for graders: 'Reset CSS' stylesheet starts here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Note for graders: 'Reset CSS' stylesheet ends here */
+/* Note for graders: 'Reset CSS' stylesheet ends here */
+
+* {
+    font-family: 'fredoka', sans-serif;
+    color: white;
+}
+
+body, html {
+    background: #111;
+    font-family: 'Lexend', sans-serif;;
+}
+
+.header {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #778899;
+}
+
+.title-section {
+}
+
+.title {
+    color: #fff;
+    background: linear-gradient(271deg, #edca85 30%, #f093b0 50%,#a0e9ff 70%,#a162e8 94%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.5em;
+    letter-spacing: -3px;
+    padding: 140px 2em 270px;
+    max-width: 2000px;
+}
+
+.cookie {
+    position: relative;
+    left: 230px;
+    bottom: 150px;
+    padding: 7px;
+    border: white;
+    border-radius: 4px;
+    color: black;
+    font-family: fredoka, sans-serif;
+    font-weight: lighter;
+}
+
+.header-nav {
+    z-index: 1040;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-logo {
+    right: 0px;
+    position: fixed;
+    width: 300px;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+#center-nav-box ul {
+    list-style: none;
+}
+
+#center-nav-box li {
+    display: inline;
+}
+
+
+.center-nav {
+    max-width: 1600px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.center-nav-list {
+    margin: 1em;
+}
+
+.center-nav-list-item {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+    font-size: larger;
+    padding: 3em 1em 1em;
+    margin-top: 2rem;
+    font-weight: normal;
+}
+
+.center-nav-list-item:hover {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+    font-size: larger;
+    padding: 3em 1em 1em;
+    margin-top: 2rem;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominic Paragas | Home </title>
+    <author hidden>Dominic Paragas</author>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="home-page">
+    <header class="header-nav">
+        <nav class="center-nav" id="center-nav-box">
+            <ul class="center-nav-list">
+                <li class="nav-logo">
+                    Dominic Paragas
+                </li>
+                <li class="center-nav-list-item">
+                    <a id="home" style="text-decoration: underline; text-decoration-color: #a162e8;">
+                        <span>
+                            Home
+                        </span>
+                    </a>
+                </li>
+                <li class="center-nav-list-item">
+                    <a id="about">
+                        <span>
+                            About
+                        </span>
+                    </a>
+                </li>
+                <li class="center-nav-list-item">
+                    <a id="about">
+                        <span>
+                            Work
+                        </span>
+                    </a>
+                </li>
+                <li class="center-nav-list-item">
+                    <a id="contact">
+                        <span>
+                            Contact
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="title-section">
+        <div>
+            <h1 class="title">
+                Hi! I'm <br> Dominic — <br> Designer | Researcher | Developer | Engineer.
+                <!-- Obviously, I know I have to pick one. Or two. Maybe three. -->
+            </h1>
+            <button class="cookie" onclick="giveCookie()">
+                Click me for a cookie!
+                <img src="https://clipart.world/wp-content/uploads/2020/12/Cookie-clipart-transparent.png" alt="Cookie" style="display: inline; max-width: 10px"/>
+            </button>
+            <script>
+                function giveCookie() {
+                    window.open("https://www.google.com/search?q=cookie+bakery+near+me",
+                        "", "width=1000, height=700");
+                }
+            </script>
+            <form class="cookie" onsubmit="giveCookie()">
+                <label for="cookie-search">Search for a cookie!</label><br>
+                <input type="text" style="color: black" id="cookie-search" name="cookie-search">
+                <input type="submit" value="Submit" style="color: black">
+            </form>
+        </div>
+    </section>
+</body>
